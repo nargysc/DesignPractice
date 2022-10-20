@@ -112,8 +112,7 @@ body{
         left:50%;
         transform:translate(-50%,-50%);
         box-shadow: 
-          
-          rgba(#fff, .1) 0px -.3em 1px inset,
+           rgba(#fff, .1) 0px -.3em 1px inset,
           rgba(#fff, .15) 0px .3em 5px inset,  
           rgba(#000, .7) 0px .0em .15em .3em inset,                  
           ;
@@ -157,7 +156,7 @@ body{
     )
     0% 0% / 100% .3em,  
         
-//             line - right
+          line - right
     linear-gradient(
       to right,
       #7E7E7E,
@@ -165,7 +164,7 @@ body{
     )
     100% 50% / .3em 100%,  
              
-//             line - left
+          line - left
     linear-gradient(
       to right,
     #7E7E7E,
@@ -173,15 +172,15 @@ body{
     )
     0% 0% / .3em 100%,   
            
-//             gradient right
+    gradient right
     linear-gradient(
       to right,
       #A2A2A2,
     #A1A1A1,
-      // #59585B,
+      #59585B,
     )
     100% 100% / 1em 100%,               
-//             gradient left
+          gradient left
     linear-gradient(
       to right,
       #7E7E7E,
@@ -212,8 +211,8 @@ body{
           background-repeat:no-repeat;
           
         }
-      }
-    }
+      
+    
     .big-circle{
       width:3em;
       height:3em;
@@ -234,7 +233,7 @@ body{
         ;
       background-repeat: no-repeat;
     }
-  }
+  
   .camera-body{
     width:100%;
       box-shadow: 
@@ -250,8 +249,8 @@ body{
     border-bottom-right-radius:  7.5em;
     border-bottom-left-radius:  7.5em;
     background:
-      #2F2F2F
-      ;
+      #2F2F2F;
+  }
     .camera-stripes{
       z-index: 4;
       width:100%;
@@ -341,7 +340,6 @@ body{
     };
 ;
      .lens__outer{
-       
       width:28em;
       height:28em;
       border-radius:50%;
@@ -351,7 +349,6 @@ body{
       left:50%;
       box-shadow: 
         rgba(#656565, .7) 0px .2em .1em, 
-        
         rgba(#181818, 0.9) 0px 2.2em 2.2em,            rgba(#656565, 0.6) -2.5em -3.8em 5em, 
         rgba(#656565, 0.2) -1.5em -.5em .8em,           rgba(#656565, 0.9) .5em 1.2em 1.6em,
         rgba(#000, 1) 0px 0em 0em .2em,
@@ -372,8 +369,6 @@ body{
       transform:translate(-50%,-50%);
       overflow: hidden;
        z-index: 5;
-      &__inner{
-        z-index: 6;
         width:25.5em;
         height:25.5em;
         border-radius:inherit;
@@ -391,7 +386,6 @@ body{
       top:50%;
       left:50%; 
         transform:translate(-50%,-50%);
-      }
     }
     .lens__inner__outer{
       z-index: 9;
@@ -407,7 +401,7 @@ body{
       background:#212121;
       box-shadow:
         inset 0em .1em .2em .2em rgba(#fff,.05);
-      &__inner{
+    
         border:0px solid hotpink;
         width:15em;
         height:15em;
@@ -443,8 +437,7 @@ body{
         100% 100% /100% 100%,     
          ;
         background-repeat:no-repeat;
-        &__glass{
-
+    
           width:6.2em;
           height:6.2em;   
           border-radius:inherit;
@@ -460,10 +453,7 @@ body{
         rgba(#2D2D2D,.1) 49%,
           rgba(#5B5B5B,.5) 50%,
         )
-        100% 100% /100% 100%, 
-        ;
-        }
-        &__under__glass{
+        100% 100% /100% 100%;
           width:6.2em;
           height:6.2em;   
           border-radius:inherit;     
@@ -487,7 +477,6 @@ body{
       transform: translate(
 -50%,-50%);        
           background:#4D4D4D;
-          &:after{
           width:.8em;
           height:.8em;   
           border-radius:inherit;     
@@ -499,9 +488,4 @@ body{
             content:'';
             border:.2em solid #000;
           }
-        }
-      }
-    }
-  }
-}
-
+        

@@ -214,6 +214,7 @@ body{
             
             ;
           background-repeat:no-repeat;
+          
       
         }
       }
@@ -344,7 +345,7 @@ body{
       border-left:.1em solid rgba(#fff,.6);
       border-right: .1em solid rgba(#2F2F2F, 1);
     };
-;
+
      .lens__outer{
        
       width:28em;
@@ -396,6 +397,7 @@ body{
       top:50%;
       left:50%; 
         transform:translate(-50%,-50%);
+        
       }
     }
     .lens__inner__outer{
@@ -448,6 +450,15 @@ body{
         100% 100% /100% 100%,     
          ;
         background-repeat:no-repeat;
+        animation: scaling 1.5s  infinite;
+      
+        @keyframes scaling{
+         20% {
+         transform: scale(1.6)
+  }
+
+        }
+      
         &__glass{
 
           width:6.2em;
@@ -481,6 +492,7 @@ body{
         inset .5em .0em 1em .1em rgba(#fff,.15);  
           background:
             #2D2D2D;
+            
         }
         .lens_container{
           width:2.2em;
@@ -503,8 +515,8 @@ body{
 -50%,-50%);    
             content:'';
             border:.2em solid #000;
+            
    
-
           }
         }
       }

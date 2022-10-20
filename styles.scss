@@ -11,8 +11,8 @@ body{
 }
 .snaptouch {
   font-size: 1.5vmin;
-  width: 76em;
-  height: 56em;
+  width: 56em;
+  height: 36em;
   position: absolute;
   top: 49%;
   left: 50%;
@@ -31,17 +31,15 @@ body{
     //   rgba(blue,1) 51%
     //   )
     //   55% 0% / 22em 22em,     
-    
     ;
+
   background-repeat: no-repeat;
   .logo{
     font-family: calibri;
     color:#DEDAD9;
     position:absolute;
     border:1px solid hotpink;
-    h1{
-      
-    }
+
   }
   .button{
     border:1px solid orange;
@@ -216,7 +214,7 @@ body{
             
             ;
           background-repeat:no-repeat;
-          
+      
         }
       }
     }
@@ -256,8 +254,9 @@ body{
     border-bottom-right-radius:  7.5em;
     border-bottom-left-radius:  7.5em;
     background:
-      #2F2F2F
-      ;
+      #012141;
+      
+  }
     .camera-stripes{
       z-index: 4;
       width:100%;
@@ -504,10 +503,12 @@ body{
 -50%,-50%);    
             content:'';
             border:.2em solid #000;
+   
+
           }
         }
       }
     }
   }
-}
+
 

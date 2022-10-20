@@ -259,12 +259,8 @@ body{
       top:49.5%;
       transform:translatey(-50%);
       background:
-     linear-gradient(
-     to bottom,
-    rgba(#fff,.5),
-      rgba(#fff,.1),
-     transparent,
-    )
+     linear-gradient( to bottom,rgba(#fff,.5),
+      rgba(#fff,.1), transparent)
     100% 00% / 50% 10%, 
     linear-gradient(
      to right, 
@@ -279,10 +275,9 @@ body{
     rgba(#fff,.2),
       rgba(#fff,.2),
      transparent
-    )
-    98% 50% / 2em 5em, 
+    ) 98% 50% / 2em 5em, 
     linear-gradient(
-      to bottom, 
+  to bottom, 
       #FA2CA5,
     #F929A4 1em,
     )
@@ -437,8 +432,7 @@ body{
         100% 100% /100% 100%,     
          ;
         background-repeat:no-repeat;
-    
-          width:6.2em;
+    width:6.2em;
           height:6.2em;   
           border-radius:inherit;
        position: absolute;
